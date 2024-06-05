@@ -46,9 +46,15 @@ npm install
 ```bash
   npm start
 ```
-### `docker`
+### `Build da imagem Docker`
 ```bash
-  npm start
+ docker build -t testeprojet .
+```
+
+
+### `Rodar a imagem Docker`
+```bash
+ docker run -p 3000:80 testeprojet
 ```
 
 Runs the app in the development mode.\

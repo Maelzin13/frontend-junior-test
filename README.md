@@ -69,7 +69,7 @@ Open [https://frontend-junior-test-ten.vercel.app/](https://frontend-junior-test
 
 | Visualização dos dados | Filtro de usuários no mapa e lista | Dockerfile | Redux | TailwindCSS |
 | ---------------------- | --------------------------------- | ---------- | ----- | ----------- |
-| ✅                      | ✅                                 | ✅         | ❌    | ✅          |
+| ✅                      | ✅                                 | ✅         | ✅     | ✅          |
 
 
 > ✅ = Feito

@@ -26,7 +26,11 @@ const UserMap = ({ users }) => {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
           {users.map(user => (
-            <Marker key={user.id} position={[user.address.geo.lat, user.address.geo.lng]} icon={defaultIcon}>
+            <Marker
+              key={user.id}
+              position={[parseFloat(user.address.geo.lat), parseFloat(user.address.geo.lng)]}
+              icon={defaultIcon}
+            >
               <Popup className="bg-white p-1 shadow-md rounded-lg">
                 <div className="flex flex-col items-center">
                   <img

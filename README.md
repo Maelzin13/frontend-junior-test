@@ -15,9 +15,9 @@ C:\Users\Ismael\Desktop\frontend-junior-test\public\assets\img
 ![Filtro](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/filter.jpeg)
 ![Mapa](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/map.jpeg)
 ![Lista e Formulario](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/listAndForm.jpeg)
+![Novo Usuario](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/addUser.jpeg)
 ![Lista de Usuario](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/ListUserAdd.jpeg)
-![Mapa com Usuario](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/mapNewUser.jpeg)
-![Mapa com Usuario 2](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/mapNewUser1.jpeg)
+![Mapa com Usuario](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/mapnewUser.jpeg)
 
 
 

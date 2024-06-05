@@ -48,19 +48,19 @@ const App = () => {
   };
 
   return (
-    <div className="container mx-auto p-12 flex flex-col"> 
-      <div className="mt-6 flex justify-start">
+    <div className="container mx-auto p-4 md:p-12 flex flex-col"> 
+      <div className="mt-6 flex flex-col md:flex-row justify-start">
         <input 
           type="text" 
           placeholder="Filtrar por nome ou cidade" 
           value={filter} 
           onChange={handleFilterChange} 
-          className="w-80 px-8 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
+          className="w-full md:w-80 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
         />
         {filter && ( 
           <button 
             onClick={handleClearFilter} 
-            className="bg-blue-500 text-white p-2 rounded-lg ml-2"
+            className="bg-blue-500 text-white p-2 rounded-lg mt-2 md:mt-0 md:ml-2"
           >
             Limpar
           </button>
@@ -69,11 +69,11 @@ const App = () => {
       <div className="mt-12 flex-grow">
         <UserMap users={filteredUsers} onMarkerClick={handleMarkerClick} />
       </div>
-      <div className="mt-12  mr-4 flex flex-row">
-        <div className="mr-4 w-1/2">
+      <div className="mt-12 flex flex-col md:flex-row">
+        <div className="mr-0 md:mr-4 w-full md:w-1/2">
           <UserList users={users} filteredUsers={filteredUsers} />
         </div>
-        <div className="mt-6 w-1/2">
+        <div className="mt-6 w-full md:w-1/2">
           <UserForm onAddUser={handleAddUser} />
         </div>
       </div>

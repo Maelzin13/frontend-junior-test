@@ -14,6 +14,8 @@ https://jsonplaceholder.typicode.com/users .
   <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/filter.jpeg" width="200" alt="Filtro">
   <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/addUser.jpeg" width="200" alt="Novo Usuário">
   <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/mapnewUser.jpeg" width="200" alt="Mapa com Usuário">
+</p><br></br>
+<p align="center">
   <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/map.jpeg" width="200" alt="Mapa">
   <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/listAndForm.jpeg" width="200" alt="Lista e Formulário">
   <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/ListUserAdd.jpeg" width="200" alt="Lista de Usuários">

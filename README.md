@@ -10,15 +10,14 @@ Este projeto foi desenvolvido como parte da prova para a posição de Desenvolve
 
 ## Layouts
 
-C:\Users\Ismael\Desktop\frontend-junior-test\public\assets\img
-
-![Filtro](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/filter.jpeg)
-![Mapa](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/map.jpeg)
-![Lista e Formulario](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/listAndForm.jpeg)
-![Novo Usuario](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/addUser.jpeg)
-![Lista de Usuario](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/ListUserAdd.jpeg)
-![Mapa com Usuario](https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/mapnewUser.jpeg)
-
+<p align="center">
+  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/filter.jpeg" width="200" alt="Filtro">
+  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/map.jpeg" width="200" alt="Mapa">
+  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/listAndForm.jpeg" width="200" alt="Lista e Formulário">
+  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/addUser.jpeg" width="200" alt="Novo Usuário">
+  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/ListUserAdd.jpeg" width="200" alt="Lista de Usuários">
+  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/mapnewUser.jpeg" width="200" alt="Mapa com Usuário">
+</p>
 
 
 <h2 id="started">🚀 Getting started</h2>
@@ -28,13 +27,13 @@ C:\Users\Ismael\Desktop\frontend-junior-test\public\assets\img
 <h3>Cloning</h3>
 
 ```bash
-git clone your-project-url-in-github
+git clone https://github.com/Maelzin13/frontend-junior-test.git
 ```
 
 <h3>Starting</h3>
 
 ```bash
-cd project-name
+cd frontend-junior-test
 npm install
 ```
 ## Instruções de uso
@@ -43,7 +42,6 @@ npm install
 ```bash
   npm start
 ```
-
 ### `docker`
 ```bash
   npm start

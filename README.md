@@ -12,15 +12,15 @@ https://jsonplaceholder.typicode.com/users .
 
 <p align="center">
   <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/filter.jpeg" width="200" alt="Filtro">
-  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/ListUserAdd.jpeg" width="200" alt="Lista de Usuários">
+  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/ListUserAdd.jpeg" width="150" alt="Lista de Usuários">
 </p><br>
 <p align="center">
   <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/map.jpeg" width="300" alt="Mapa">
-  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/mapnewUser.jpeg" width="200" alt="Mapa com Usuário">
+  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/mapnewUser.jpeg" width="150" alt="Mapa com Usuário">
 </p><br>
 <p align="center">
   <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/listAndForm.jpeg" width="300" alt="Lista e Formulário">
-  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/addUser.jpeg" width="200" alt="Novo Usuário">
+  <img src="https://github.com/Maelzin13/frontend-junior-test/blob/main/public/assets/img/addUser.jpeg" width="300" alt="Novo Usuário">
 </p>
 
 
@@ -53,6 +53,9 @@ npm install
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+You can also run it on the project link
+Open [https://frontend-junior-test-ten.vercel.app/](https://frontend-junior-test-ten.vercel.app/) to view it in your browser.
 
 
 

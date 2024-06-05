@@ -5,7 +5,7 @@
 
 
 Este projeto foi desenvolvido como parte da prova para a posição de Desenvolvedor Frontend Junior. O objetivo era criar uma aplicação utilizando React para exibir um mapa com a localização de usuários, uma listagem dos usuários com suas informações básicas e um formulário para adicionar novos usuários à lista. A API pública utilizada para obter os dados dos usuários foi 
-[https://jsonplaceholder.typicode.com/users] .
+https://jsonplaceholder.typicode.com/users .
 
 
 ## Layouts

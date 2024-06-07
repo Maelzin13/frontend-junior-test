@@ -15,7 +15,7 @@ const UserForm = ({ onAddUser }) => {
     
     const fields = [name, email, city, lat, lng];
 
-    if (fields.some(field => !field || field === null)) {
+    if (fields.some(field => !field || field === null  || field === undfined)) {
       setErrorMessage('Por favor, preencha todos os campos corretamente.');
       setTimeout(() => {
         setErrorMessage('');

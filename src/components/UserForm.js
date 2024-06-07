@@ -54,7 +54,7 @@ const UserForm = ({ onAddUser }) => {
         </Alert>
       )}
       {erroMensage && (
-        <Alert  severity="success">
+        <Alert  severity="error">
           {erroMensage}
         </Alert>
       )}

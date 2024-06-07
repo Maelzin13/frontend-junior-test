@@ -12,11 +12,26 @@ const UserForm = ({ onAddUser }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
+    // Array de campos para verificação
     const fields = [name, email, city, lat, lng];
 
-    if (fields.some(field => !field || field === null ||  field === undefined  )) {
+    // Verifica se algum campo está vazio, nulo ou indefinido
+    if (fields.some(field => field === '' || field === null || field === undefined)) {
       setErrorMessage('Por favor, preencha todos os campos corretamente.');
+      setTimeout(() => {
+        setErrorMessage('');
+      }, 3000);
+      return;
+    }
+
+    // Converte lat e lng para números
+    const latNum = parseFloat(lat);
+    const lngNum = parseFloat(lng);
+
+    // Verifica se lat e lng são números válidos
+    if (isNaN(latNum) || isNaN(lngNum)) {
+      setErrorMessage('Por favor, insira valores numéricos válidos para latitude e longitude.');
       setTimeout(() => {
         setErrorMessage('');
       }, 3000);
@@ -30,8 +45,8 @@ const UserForm = ({ onAddUser }) => {
       address: {
         city,
         geo: {
-          lat,
-          lng,
+          lat: latNum,
+          lng: lngNum,
         },
       },
     };

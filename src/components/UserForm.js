@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Alert from '@mui/material/Alert';
 
-
 const UserForm = ({ onAddUser }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -9,15 +8,17 @@ const UserForm = ({ onAddUser }) => {
   const [lat, setLat] = useState('');
   const [lng, setLng] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
-  const [erroMensage, setErrorMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    const fields = [name, email, city, lat, lng];
 
-    if(!name || !email || !city ||  !lat || !lng){
-      setErrorMessage("Por Favor, preencha todos os campos.")
+    if (fields.some(field => !field || field === null)) {
+      setErrorMessage('Por favor, preencha todos os campos corretamente.');
       setTimeout(() => {
-        setSuccessMessage('');
+        setErrorMessage('');
       }, 3000);
       return;
     }
@@ -49,13 +50,13 @@ const UserForm = ({ onAddUser }) => {
   return (
     <div>
       {successMessage && (
-        <Alert  severity="success">
+        <Alert severity="success">
           {successMessage}
         </Alert>
       )}
-      {erroMensage && (
-        <Alert  severity="error">
-          {erroMensage}
+      {errorMessage && (
+        <Alert severity="error">
+          {errorMessage}
         </Alert>
       )}
       <form onSubmit={handleSubmit} className="max-w-4xl mx-auto p-4 bg-white shadow-md rounded-lg">

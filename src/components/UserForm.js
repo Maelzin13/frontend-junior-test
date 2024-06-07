@@ -9,9 +9,19 @@ const UserForm = ({ onAddUser }) => {
   const [lat, setLat] = useState('');
   const [lng, setLng] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
+  const [erroMensage, setErrorMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if(!name || !email || !city ||  !lat || !lng){
+      setErrorMessage("Por Favor, preencha todos os campos.")
+      setTimeout(() => {
+        setSuccessMessage('');
+      }, 3000);
+      return;
+    }
+
     const newUser = {
       id: Date.now(),
       name,
@@ -41,6 +51,11 @@ const UserForm = ({ onAddUser }) => {
       {successMessage && (
         <Alert  severity="success">
           {successMessage}
+        </Alert>
+      )}
+      {erroMensage && (
+        <Alert  severity="success">
+          {erroMensage}
         </Alert>
       )}
       <form onSubmit={handleSubmit} className="max-w-4xl mx-auto p-4 bg-white shadow-md rounded-lg">
